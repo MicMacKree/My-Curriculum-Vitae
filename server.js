@@ -45,7 +45,7 @@ io.sockets.on('connection', function (socket) {
 	})
 	.on('connexionChat', function (){
 		console.log('connexion chat....');
-		console.log ('client : ' + JSON.stringify(myClient));
+		console.log ('client test : ' + JSON.stringify(myClient));
 		socket.emit('identification',myClient,todoList);
 		socket.broadcast.emit('entree', myClient);
 	})
