@@ -1,0 +1,170 @@
+  body{
+    z-index:0;
+    margin :0;
+    padding: 0;
+    width:100%;
+    height: 100%;
+    font-family: 'BloggerSansLight'; 
+    font-weight: normal; 
+    font-style: normal; 
+  }
+  ::-webkit-scrollbar {
+    width: 1em;
+  }
+  ::-webkit-scrollbar-track {
+    background: black; 
+    
+  }
+  ::-webkit-scrollbar-thumb {
+    background-image: url(/public/img/cuivreH.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  outline: 1px solid slategrey;
+  }
+  .header {
+  z-index:1;
+    position : fixed;
+    top :0;
+    left :0;
+    height: 150px;
+    width:100%;
+    box-shadow: 10px 10px 10px black;
+    color: white;
+    background-image: url(/public/img/cuivreH.jpg);
+    background-size: initial;
+    background-repeat: no-repeat;
+  }
+  .carte{
+    float : left;
+    font-size: medium;
+  }
+  h2{
+    font-size: 2em;
+  }
+  .photoCV{
+    max-width : 100%;
+    height: auto;
+    box-shadow: 0 0 20px black;
+  
+  }
+  #navLeft {
+    padding : 0;
+    margin : 0;
+    z-index : 1;
+    width:250px;
+    height: 100%;
+    top :150px;
+    left :0;
+    position : fixed;
+    box-shadow: 10px 10px 10px black;
+    background-image: url(/public/img/cuivreV.jpg);
+    background-size: initial;
+    background-repeat: repeat;
+  }
+  .titre{
+    color : #725729;
+    color : white;
+    text-shadow : -25px 25px 4px rgba(0,0,0,0.4);
+  }
+  .titreScolaire{
+    background-color: rgba(183,39,38,0.7);
+    box-shadow: 5px 5px rgba(183,39,38,0.5), 25px 25px 15px rgba(0,0,0,0.5);
+    border-radius: 5px;
+  }
+  .titreExperience{
+    background-color: rgba(128,189,217,0.7);
+    box-shadow: 5px 5px rgba(128,189,217,0.5),-25px 25px 15px rgba(0,0,0,0.5);
+    border-radius: 5px;
+  }
+  .principale{
+    position : absolute;
+    top : 150px;
+    left: 250px;
+    width: auto;
+    height: content-box;
+    background-image: url(/public/img/img2.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+  }
+  .cv {
+    background-color: red;
+  }
+  .experience{
+    background-color: rgba(128,189,217,0.7);
+    box-shadow: 5px 5px rgba(128,189,217,0.5),-25px 25px 15px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    color : rgb(46, 42, 42);
+   
+  }
+  .scolaire{
+    background-color: rgba(183,39,38,0.7);
+    box-shadow: 5px 5px rgba(183,39,38,0.5), -25px 25px 15px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    color : white;
+   
+  }
+  #windowTDL{ 
+    height: 30%;
+    border : 3px solid white;
+  }
+  #windowChat{
+    width : 240px;
+    height:60%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:auto;
+    padding-right:auto;
+    margin-top:0;
+    margin-bottom:0;
+    padding-top:0;
+    padding-bottom:0;
+  }
+  #chat{
+    border : 1px solid white;
+    height: 300px;
+    width: 230px;
+    color: #48f2a9;
+    text-shadow: 0 0 5px rgb(4,200,92),0 0 10px rgb(4,47,1);
+    background: black;
+    overflow-y: scroll;
+    word-wrap: break-word;
+    padding-top: 1em;
+    padding-bottom : 0;
+  }
+  #message{
+    width :230px;
+    text-align: left;
+    text-justify: inter-word;
+    overflow : hidden;
+  } 
+  .message{
+    width : 220px;
+    padding-top : 0;
+    padding-bottom : 0;
+    
+  }
+  .fgdCanvas{
+    position : absolute;
+  }
+@media screen and (max-width: 800px) {
+  #navLeft{
+    z-index : 0;
+    position: fixed;
+    top: 70%;
+    left : 0;
+    width:100%;
+    height: 30%;
+    box-shadow: 10px 10px 10px black;
+    background-image: url(/public/img/cuivreH.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+  }
+
+  .principale{
+    left: 0;
+  }
+}
+
+
+
+ 
